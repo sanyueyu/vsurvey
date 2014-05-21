@@ -1,0 +1,20 @@
+{
+    "name": "vsurvey",
+    "version": "0.1.0",
+    "description": "surver for mobile",
+    "author": "sanyueyu",
+    "main": "index.js",
+    "scripts": {
+        "test": "grunt test",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "kraken-js": "^0.7.0",
+        "express": "~3.4.4",
+        "nconf": "^0.6.8"
+    },
+    "devDependencies": {
+        "mocha": "^1.17.0",
+        "supertest": "^0.8.2"
+    }
+}
