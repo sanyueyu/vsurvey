@@ -1,0 +1,10 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>{@pre type="content" key="greeting"/}</h1>
+   <form method = "POST" action = "/users">
+    <label>email: <input name = "email" type = "email" /></label>
+    <label>password: <input name = "password" type = "password" /></label>
+    <input type="submit" value="Save">
+   </form>
+{/body}
